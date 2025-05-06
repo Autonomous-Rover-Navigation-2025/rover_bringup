@@ -1,0 +1,92 @@
+[8.167s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'rover_bringup']
+[8.168s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffbb2c5820>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=['rover_bringup'], packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffbb2c5820>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffbac17cd0>)
+[8.548s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[8.548s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[8.548s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[8.548s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[8.548s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[8.549s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[8.549s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/workspaces/isaac_ros-dev/src/rover_bringup'
+[8.549s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[8.549s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[8.550s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[8.550s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[8.550s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[8.550s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[8.550s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[8.550s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[8.550s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[8.601s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_python' and name 'rover_bringup'
+[8.602s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[8.602s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[8.602s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[8.602s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[8.602s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[8.907s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[8.907s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[9.027s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 71 installed packages in /workspaces/isaac_ros-dev/install
+[9.082s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 289 installed packages in /opt/ros/humble
+[9.088s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[9.500s] Level 5:colcon.colcon_core.verb:set package 'rover_bringup' build argument 'cmake_args' from command line to 'None'
+[9.500s] Level 5:colcon.colcon_core.verb:set package 'rover_bringup' build argument 'cmake_target' from command line to 'None'
+[9.500s] Level 5:colcon.colcon_core.verb:set package 'rover_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[9.500s] Level 5:colcon.colcon_core.verb:set package 'rover_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[9.500s] Level 5:colcon.colcon_core.verb:set package 'rover_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[9.501s] Level 5:colcon.colcon_core.verb:set package 'rover_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[9.501s] Level 5:colcon.colcon_core.verb:set package 'rover_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[9.501s] Level 5:colcon.colcon_core.verb:set package 'rover_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[9.501s] Level 5:colcon.colcon_core.verb:set package 'rover_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[9.501s] DEBUG:colcon.colcon_core.verb:Building package 'rover_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspaces/isaac_ros-dev/src/rover_bringup/build/rover_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspaces/isaac_ros-dev/src/rover_bringup/install/rover_bringup', 'merge_install': False, 'path': '/workspaces/isaac_ros-dev/src/rover_bringup', 'symlink_install': False, 'test_result_base': None}
+[9.550s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[9.600s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[9.601s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/workspaces/isaac_ros-dev/src/rover_bringup' with build type 'ament_python'
+[9.602s] Level 1:colcon.colcon_core.shell:create_environment_hook('rover_bringup', 'ament_prefix_path')
+[9.658s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[9.659s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/isaac_ros-dev/src/rover_bringup/install/rover_bringup/share/rover_bringup/hook/ament_prefix_path.ps1'
+[9.661s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/isaac_ros-dev/src/rover_bringup/install/rover_bringup/share/rover_bringup/hook/ament_prefix_path.dsv'
+[9.663s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/isaac_ros-dev/src/rover_bringup/install/rover_bringup/share/rover_bringup/hook/ament_prefix_path.sh'
+[9.713s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.714s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.407s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/workspaces/isaac_ros-dev/src/rover_bringup'
+[11.471s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[11.472s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[14.196s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/isaac_ros-dev/src/rover_bringup': PYTHONPATH=/workspaces/isaac_ros-dev/src/rover_bringup/build/rover_bringup/prefix_override:/workspaces/isaac_ros-dev/src/rover_bringup/install/rover_bringup/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/rover_bringup build --build-base /workspaces/isaac_ros-dev/src/rover_bringup/build/rover_bringup/build install --record /workspaces/isaac_ros-dev/src/rover_bringup/build/rover_bringup/install.log --single-version-externally-managed
+[16.509s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/isaac_ros-dev/src/rover_bringup' returned '0': PYTHONPATH=/workspaces/isaac_ros-dev/src/rover_bringup/build/rover_bringup/prefix_override:/workspaces/isaac_ros-dev/src/rover_bringup/install/rover_bringup/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/rover_bringup build --build-base /workspaces/isaac_ros-dev/src/rover_bringup/build/rover_bringup/build install --record /workspaces/isaac_ros-dev/src/rover_bringup/build/rover_bringup/install.log --single-version-externally-managed
+[16.590s] Level 1:colcon.colcon_core.environment:checking '/workspaces/isaac_ros-dev/src/rover_bringup/install/rover_bringup' for CMake module files
+[16.591s] Level 1:colcon.colcon_core.environment:checking '/workspaces/isaac_ros-dev/src/rover_bringup/install/rover_bringup' for CMake config files
+[16.595s] Level 1:colcon.colcon_core.environment:checking '/workspaces/isaac_ros-dev/src/rover_bringup/install/rover_bringup/lib'
+[16.595s] Level 1:colcon.colcon_core.environment:checking '/workspaces/isaac_ros-dev/src/rover_bringup/install/rover_bringup/bin'
+[16.595s] Level 1:colcon.colcon_core.environment:checking '/workspaces/isaac_ros-dev/src/rover_bringup/install/rover_bringup/lib/pkgconfig/rover_bringup.pc'
+[16.596s] Level 1:colcon.colcon_core.environment:checking '/workspaces/isaac_ros-dev/src/rover_bringup/install/rover_bringup/lib/python3.8/site-packages'
+[16.597s] Level 1:colcon.colcon_core.shell:create_environment_hook('rover_bringup', 'pythonpath')
+[16.645s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/isaac_ros-dev/src/rover_bringup/install/rover_bringup/share/rover_bringup/hook/pythonpath.ps1'
+[16.647s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/isaac_ros-dev/src/rover_bringup/install/rover_bringup/share/rover_bringup/hook/pythonpath.dsv'
+[16.648s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/isaac_ros-dev/src/rover_bringup/install/rover_bringup/share/rover_bringup/hook/pythonpath.sh'
+[16.650s] Level 1:colcon.colcon_core.environment:checking '/workspaces/isaac_ros-dev/src/rover_bringup/install/rover_bringup/bin'
+[16.650s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rover_bringup)
+[16.700s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/isaac_ros-dev/src/rover_bringup/install/rover_bringup/share/rover_bringup/package.ps1'
+[16.703s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspaces/isaac_ros-dev/src/rover_bringup/install/rover_bringup/share/rover_bringup/package.dsv'
+[16.705s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/isaac_ros-dev/src/rover_bringup/install/rover_bringup/share/rover_bringup/package.sh'
+[16.708s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/isaac_ros-dev/src/rover_bringup/install/rover_bringup/share/rover_bringup/package.bash'
+[16.710s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/isaac_ros-dev/src/rover_bringup/install/rover_bringup/share/rover_bringup/package.zsh'
+[16.712s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspaces/isaac_ros-dev/src/rover_bringup/install/rover_bringup/share/colcon-core/packages/rover_bringup)
+[16.714s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[16.715s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[16.716s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[16.717s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[16.790s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[16.790s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[16.791s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[16.791s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[16.823s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[16.825s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[16.882s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspaces/isaac_ros-dev/src/rover_bringup/install/local_setup.ps1'
+[16.886s] INFO:colcon.colcon_core.shell:Creating prefix util module '/workspaces/isaac_ros-dev/src/rover_bringup/install/_local_setup_util_ps1.py'
+[16.890s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspaces/isaac_ros-dev/src/rover_bringup/install/setup.ps1'
+[16.955s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspaces/isaac_ros-dev/src/rover_bringup/install/local_setup.sh'
+[16.957s] INFO:colcon.colcon_core.shell:Creating prefix util module '/workspaces/isaac_ros-dev/src/rover_bringup/install/_local_setup_util_sh.py'
+[16.959s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspaces/isaac_ros-dev/src/rover_bringup/install/setup.sh'
+[17.024s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspaces/isaac_ros-dev/src/rover_bringup/install/local_setup.bash'
+[17.026s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspaces/isaac_ros-dev/src/rover_bringup/install/setup.bash'
+[17.091s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspaces/isaac_ros-dev/src/rover_bringup/install/local_setup.zsh'
+[17.093s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspaces/isaac_ros-dev/src/rover_bringup/install/setup.zsh'

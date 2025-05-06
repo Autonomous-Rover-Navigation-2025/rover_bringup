@@ -1,0 +1,66 @@
+[8.743s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'rover_bringup']
+[8.743s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffac9effd0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=['rover_bringup'], packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffac9effd0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffac3cd670>)
+[9.640s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[9.641s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[9.641s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[9.642s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[9.642s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[9.643s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[9.643s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/workspaces/isaac_ros-dev/src/rover_bringup/launch'
+[9.643s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[9.644s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[9.644s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[9.644s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[9.644s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[9.644s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[9.645s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[9.645s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[9.645s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[9.788s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[9.788s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[9.788s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[9.788s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[9.788s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[9.797s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[9.798s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[9.798s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[9.798s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[9.799s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[9.799s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[9.799s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[9.800s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[9.800s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[9.800s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[9.800s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[9.800s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[9.801s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[9.801s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[9.947s] WARNING:colcon.colcon_core.package_selection:ignoring unknown package 'rover_bringup' in --packages-select
+[10.428s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[10.428s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[10.585s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 71 installed packages in /workspaces/isaac_ros-dev/install
+[10.644s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 289 installed packages in /opt/ros/humble
+[10.649s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[11.040s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[11.101s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[11.103s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[11.103s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[11.103s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[11.104s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[11.181s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[11.181s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[11.182s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[11.182s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[11.219s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[11.221s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[11.294s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[11.295s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspaces/isaac_ros-dev/src/rover_bringup/launch/install/local_setup.ps1'
+[11.300s] INFO:colcon.colcon_core.shell:Creating prefix util module '/workspaces/isaac_ros-dev/src/rover_bringup/launch/install/_local_setup_util_ps1.py'
+[11.305s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspaces/isaac_ros-dev/src/rover_bringup/launch/install/setup.ps1'
+[11.375s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspaces/isaac_ros-dev/src/rover_bringup/launch/install/local_setup.sh'
+[11.377s] INFO:colcon.colcon_core.shell:Creating prefix util module '/workspaces/isaac_ros-dev/src/rover_bringup/launch/install/_local_setup_util_sh.py'
+[11.379s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspaces/isaac_ros-dev/src/rover_bringup/launch/install/setup.sh'
+[11.447s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspaces/isaac_ros-dev/src/rover_bringup/launch/install/local_setup.bash'
+[11.450s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspaces/isaac_ros-dev/src/rover_bringup/launch/install/setup.bash'
+[11.517s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspaces/isaac_ros-dev/src/rover_bringup/launch/install/local_setup.zsh'
+[11.520s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspaces/isaac_ros-dev/src/rover_bringup/launch/install/setup.zsh'
